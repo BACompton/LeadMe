@@ -1,0 +1,29 @@
+default:
+  persistOnLoggout: true
+  overrideDefault: false
+  xRadius: 1.0
+  yRadius: 1.0
+  zRadius: 1.0
+  presidence: NONE
+  leash: false
+VILLAGER: 
+  presidence: PLAYER
+  leash: true
+CHICKEN:
+  leash: true
+COW:
+  leash: true
+MUSHROOM_COW:
+  leash: true
+PIG:
+  leash: true
+RABBIT:
+  leash: true
+SHEEP:
+  leash: true
+SQUID:
+  leash: true
+IRON_GOLEM:
+  leash: true
+SNOW_GOLEM:
+  leash: true

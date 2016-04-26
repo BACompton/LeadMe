@@ -1,0 +1,165 @@
+name: LeadMe
+version: 1.0
+main: d3ath5643.LeadMe.Main
+author: D3ath5643
+description: LeadMe lets players attach leads to any Living Entity
+
+commands:
+  lmreload:
+    description: Command to reload LeadMe's config file
+    permission: LeadMe.command.reload
+    permission-message: "You do not have permission to reload LeadMe"
+    usage: Proper usage /<command>
+
+permissions:
+  LeadMe.*:
+    description: Gives access to all commands and abilities in LeadMe
+    children:
+      LeadMe.command.*: true
+      LeadMe.leash.*: true
+  LeadMe.command.*:
+    description: Give access to all LeadMe's commands
+    children:
+      LeadMe.command.reload: true
+  LeadMe.command.reload:
+    description: Gives access to LeadMe's reload command
+    default: op
+  LeadMe.leash.*:
+    description: Gives ability to leash all living entities
+    children:
+      LeadMe.leash.armor_stand: true
+      LeadMe.leash.creeper: true
+      LeadMe.leash.skeleton: true
+      LeadMe.leash.spider: true
+      LeadMe.leash.giant: true
+      LeadMe.leash.zombie: true
+      LeadMe.leash.slime: true
+      LeadMe.leash.ghast: true
+      LeadMe.leash.pig_zombie: true
+      LeadMe.leash.enderman: true
+      LeadMe.leash.cave_spider: true
+      LeadMe.leash.silverfish: true
+      LeadMe.leash.blaze: true
+      LeadMe.leash.magma_cube: true
+      LeadMe.leash.ender_dragon: true
+      LeadMe.leash.wither: true
+      LeadMe.leash.bat: true
+      LeadMe.leash.witch: true
+      LeadMe.leash.endermite: true
+      LeadMe.leash.guardian: true
+      LeadMe.leash.pig: true
+      LeadMe.leash.sheep: true
+      LeadMe.leash.cow: true
+      LeadMe.leash.chicken: true
+      LeadMe.leash.squid: true
+      LeadMe.leash.wolf: true
+      LeadMe.leash.mushroom_cow: true
+      LeadMe.leash.snowman: true
+      LeadMe.leash.ocelot: true
+      LeadMe.leash.iron_golem: true
+      LeadMe.leash.horse: true
+      LeadMe.leash.rabbit: true
+      LeadMe.leash.villager: true
+      LeadMe.leash.player: true
+  LeadMe.leash.armor_stand:
+    description: Gives ability to leash a ARMOR_STAND
+    default: op
+  LeadMe.leash.creeper:
+    description: Gives ability to leash a CREEPER
+    default: op
+  LeadMe.leash.skeleton:
+    description: Gives ability to leash a SKELETON
+    default: op
+  LeadMe.leash.spider:
+    description: Gives ability to leash a SPIDER
+    default: op
+  LeadMe.leash.giant:
+    description: Gives ability to leash a GIANT
+    default: op
+  LeadMe.leash.zombie:
+    description: Gives ability to leash a ZOMBIE
+    default: op
+  LeadMe.leash.slime:
+    description: Gives ability to leash a SLIME
+    default: op
+  LeadMe.leash.ghast:
+    description: Gives ability to leash a GHAST
+    default: op
+  LeadMe.leash.pig_zombie:
+    description: Gives ability to leash a PIG_ZOMBIE
+    default: op
+  LeadMe.leash.enderman:
+    description: Gives ability to leash a ENDERMAN
+    default: op
+  LeadMe.leash.cave_spider:
+    description: Gives ability to leash a CAVE_SPIDER
+    default: op
+  LeadMe.leash.silverfish:
+    description: Gives ability to leash a SILVERFISH
+    default: op
+  LeadMe.leash.blaze:
+    description: Gives ability to leash a BLAZE
+    default: op
+  LeadMe.leash.magma_cube:
+    description: Gives ability to leash a MAGMA_CUBE
+    default: op
+  LeadMe.leash.ender_dragon:
+    description: Gives ability to leash a ENDER_DRAGON
+    default: op
+  LeadMe.leash.wither:
+    description: Gives ability to leash a WITHER
+    default: op
+  LeadMe.leash.bat:
+    description: Gives ability to leash a BAT
+    default: op
+  LeadMe.leash.witch:
+    description: Gives ability to leash a WITCH
+    default: op
+  LeadMe.leash.endermite:
+    description: Gives ability to leash a ENDERMITE
+    default: op
+  LeadMe.leash.guardian:
+    description: Gives ability to leash a GUARDIAN
+    default: op
+  LeadMe.leash.pig:
+    description: Gives ability to leash a PIG
+    default: op
+  LeadMe.leash.sheep:
+    description: Gives ability to leash a SHEEP
+    default: op
+  LeadMe.leash.cow:
+    description: Gives ability to leash a COW
+    default: op
+  LeadMe.leash.chicken:
+    description: Gives ability to leash a CHICKEN
+    default: op
+  LeadMe.leash.squid:
+    description: Gives ability to leash a SQUID
+    default: op
+  LeadMe.leash.wolf:
+    description: Gives ability to leash a WOLF
+    default: op
+  LeadMe.leash.mushroom_cow:
+    description: Gives ability to leash a MUSHROOM_COW
+    default: op
+  LeadMe.leash.snowman:
+    description: Gives ability to leash a SNOWMAN
+    default: op
+  LeadMe.leash.ocelot:
+    description: Gives ability to leash a OCELOT
+    default: op
+  LeadMe.leash.iron_golem:
+    description: Gives ability to leash a IRON_GOLEM
+    default: op
+  LeadMe.leash.horse:
+    description: Gives ability to leash a HORSE
+    default: op
+  LeadMe.leash.rabbit:
+    description: Gives ability to leash a RABBIT
+    default: op
+  LeadMe.leash.villager:
+    description: Gives ability to leash a VILLAGER
+    default: op
+  LeadMe.leash.player:
+    description: Gives ability to leash a PLAYER
+    default: op
