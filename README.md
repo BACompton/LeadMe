@@ -14,7 +14,7 @@ LeadMe allows a player to do the following:
   * LeadMe.command.*:
     * LeadMe.command.reload: Grants access to LeadMe's reload command.
   * LeadMe.leash.*:
-    * LeadMe.leash._\<entityNeme\>_: Grants access to leash that entity.
+    * LeadMe.leash._\<entityName\>_: Grants access to leash that entity.
 
 ### Commands
 * LMreload: Reloads LeadMe's config file
